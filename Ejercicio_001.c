@@ -1,9 +1,5 @@
 /*
  ============================================================================
- Name        : EjerciciosECOEM_C.c
- Author      : dcazalla
- Version     :
- Copyright   : Your copyright notice
  Description : Desarrolle un programa en C que calcule el máximo de un conjunto de números.
  ============================================================================
  */

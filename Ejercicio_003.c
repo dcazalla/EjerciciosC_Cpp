@@ -1,9 +1,5 @@
 /*
  ============================================================================
- Name        : Ejercicio_003.c
- Author      : dcazalla
- Version     :
- Copyright   : Your copyright notice
  Description : Desarrolle un programa en C que realice las siguientes operaciones:
  - Preguntar al usuario con cuántos números desea trabajar.
  - Leer y almacenar los números convenientemente.
