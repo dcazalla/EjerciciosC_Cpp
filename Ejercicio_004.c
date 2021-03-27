@@ -8,20 +8,22 @@ Description: Desarrolle un programa en C que lea una palabra y la escriba al rev
 #include <string.h>
 
 int main(){
-    char palabra[100];
+	char palabra[100];
 
-    printf("Escriba una palabra: ");
-    scanf("%s", palabra);
+	printf("Escriba una palabra: ");
+	scanf("%s", palabra);
+	int tamanyo = strlen(palabra);	
+	printf("\nEl tamaño de la palabra es: %d\n", tamanyo);
+	char palabradelreves[100];
 
-    char palabradelreves[100];
 
-    int tamanyo = strlen(palabra);
-    for (int i = 0; i < tamanyo; i++)
-    {
-        char letra = palabra[tamanyo -1 - i];
-        palabradelreves[i] = letra;
-    }
-    
-    printf("%s", palabradelreves);
+	for (int i = 0; i < tamanyo; i++)
+	{
+		char letra = palabra[tamanyo -1 - i];
+		palabradelreves[i] = letra;
+	}
+
+
+	printf("La palabra escrita al revés es: %s \n", palabradelreves);
 
 }
